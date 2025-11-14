@@ -1,9 +1,9 @@
 def categorize_by_age(age):
     if age < 0:
         return "Invalid age"
-    elif age <= 12:
+    elif age <= 9:
         return "Child"
-    elif age <= 19:
+    elif age <= 18:
         return "Teenager"
     elif age <= 64:
         return "Adult"
